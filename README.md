@@ -43,7 +43,7 @@ During the development of this application, I have applied various design princi
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/ProductCatalogApp.git](https://github.com/YourUsername/ProductCatalogApp.git)
+    git clone [[https://github.com/YourUsername/ProductCatalogApp.git](https://github.com/YourUsername/ProductCatalogApp.git](https://github.com/stephanie7cruz/ProductCatalogApp.git))
     cd ProductCatalogApp
     ```
 
