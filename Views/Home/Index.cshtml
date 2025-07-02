@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Product Catalog";
+}
+
+<div class="text-center">
+    <h1 class="sii-title">
+        <span class="blue-text">Welcome to</span><br>
+        <span class="purple-text">Product Catalog by Stephanie</span>
+    </h1>
+    <p>Search for products by ID or view all products.</p>
+</div>
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6 offset-md-3">
+            <div class="input-group">
+                <input type="text" id="productIdInput" class="form-control" placeholder="Enter Product ID (empty for all products)" />
+                <button class="btn btn-primary" id="searchProductBtn">Search Product</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div id="productResults">
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/productSearch.js" asp-append-version="true"></script>
+}
